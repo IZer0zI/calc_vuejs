@@ -23,7 +23,7 @@ const resultado = computed(() => {
 
 <template>
   <div id="app" class="container">
-    <h1>Calculadora Aritmética</h1>
+    <h1>Calculadora com VueJS</h1>
     <div class="form-group">
       <label for="num1">Número 1:</label>
       <input v-model.number="num1" id="num1" type="number" class="form-control">
